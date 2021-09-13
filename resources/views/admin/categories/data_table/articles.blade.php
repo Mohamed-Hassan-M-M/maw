@@ -1,0 +1,1 @@
+<a href="{{ route('admin.articles.index', ['category_id' => $id]) }}" class="btn btn-info btn-sm"><i class="fa fa-file"></i> @lang('articles.articles')</a>

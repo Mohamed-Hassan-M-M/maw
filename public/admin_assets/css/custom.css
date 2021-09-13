@@ -1,0 +1,126 @@
+html, body {
+    font-size: 15px !important;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #1976D1;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+.loader-small {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid #1976D1;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.sidebar-nav > ul > li > a.active {
+    background: none !important;
+}
+
+#ar input, #ar .input-group-text {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+/*.btn-primary, .btn-primary.disabled {*/
+/*    background: #1976D1;*/
+/*    border: 1px solid #1976D1;*/
+/*}*/
+
+/*.btn-primary:hover, .btn-primary.disabled:hover {*/
+/*    background: #1669ba;*/
+/*    border: 1px solid #1669ba;*/
+/*}*/
+
+/*.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {*/
+/*    background: #1669ba;*/
+/*    border: 1px solid #1669ba;*/
+/*}*/
+
+/*.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:focus, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {*/
+/*    background: #1669ba;*/
+/*    border: 1px solid #1669ba;*/
+/*}*/
+
+[type=checkbox] + label {
+    height: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.table td, .table th {
+    padding: .75rem !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, .25);
+}
+
+.dataTables_wrapper {
+    padding-top: 0;
+}
+
+table.dataTable {
+    margin-top: 0 !important;
+}
+
+.dataTables_info, .dataTables_length {
+    display: block;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: #1976d2;
+}
+
+.nav-pills .nav-link {
+    color: #607d8b;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: #1976d2;
+}
+
+.product-images-container {
+    position: relative;
+}
+
+.product-images-container .overlay {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    opacity: 0;
+}
+
+.product-images-container:hover .overlay {
+    opacity: 1;
+}
+

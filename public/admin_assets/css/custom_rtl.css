@@ -1,0 +1,19 @@
+.nav {
+    padding-right: 0;
+}
+
+html, body, h2, h1, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc:after {
+    margin-right: 10px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: 1px;
+}
+
+p {
+    text-align: right !important;
+}
